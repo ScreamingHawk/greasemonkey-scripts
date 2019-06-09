@@ -21,6 +21,7 @@
 					p.css('position', '')
 					p.css('top', '')
 					p.css('left', '')
+					p.css('z-index', '')
 				} else {
 					console.log('Hiding');
 					$('div#masthead-container').hide()
@@ -28,6 +29,7 @@
 					p.css('position', 'absolute')
 					p.css('top', 0)
 					p.css('left', 0)
+					p.css('z-index', 1000)
 				}
 				youtubeTopBarHidden = !youtubeTopBarHidden;
 			}
